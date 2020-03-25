@@ -1,0 +1,16 @@
+{
+  "name": "dokernode",
+  "version": "1.0.0",
+  "description": "teste do docker com node no ubuntu",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Pablo Nunes",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2"
+  }
+}
